@@ -1,0 +1,6 @@
+import math
+
+SCREEN_WIDTH, SCREEN_HEIGHT = (400, 600)
+LANES = 3
+BLOCK_WIDTH = math.ceil(SCREEN_WIDTH / LANES)
+POSSIBLE_X = [(BLOCK_WIDTH * i) + 16 for i in range(LANES)]
